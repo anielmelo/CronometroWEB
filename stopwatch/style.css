@@ -4,25 +4,30 @@ body {
     color: white;
     text-align: center;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 main {
     text-align: center;
     width: 500px;
+    background-color: rgb(130, 130, 223);
+    /*
     background-color: white;
+    */
     color: black;
     padding: 10px;
     margin: auto;
+    margin-top: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.13);
 }
 
 #stopwatch {
     width: 300px;
     margin: auto;
     padding-bottom: 10px;
-}
-
-.watch {
-    display: inline-block;
     text-align: center;
 }
 
@@ -33,4 +38,13 @@ main {
     color: white;
     width: 100px;
     padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.13);
+}
+
+.buttonBlue:hover {
+    background-color: rgb(102, 102, 172);
+}
+
+.buttonBlue:active {
+    border: 1px solid white;
 }
